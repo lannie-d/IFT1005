@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Ex1r.rnc" type="application/relax-ng-compact-syntax"?>
+
+<article magazine="Ford" annee="2018" type="sport">
+   <titre couleur="bleu">Blassdh dujdj</titre>
+    <paragraphe>
+        <phrase>hlkjadlkjhjajadjhdajkkjsal</phrase>
+    </paragraphe>
+    <image src="www.google.com" annee="2018"></image>
+    
+</article>
