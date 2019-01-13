@@ -1,0 +1,46 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = element article {
+    attribute magazine { text },
+    attribute type { "sport" | "beauté" | "business" },
+    attribute annee { xsd:gYear },
+    titre,
+    soustitre?,
+    paragraphe,
+    (paragraphe* & image*),
+    (source & auteur)
+}
+
+titre = element titre {
+    attribute couleur {"noir" | "rouge" | "bleu"},
+    xsd:string { 
+        minLength = "10" 
+        maxLength = "50" 
+    }
+}
+
+soustitre = element soustitre {
+    xsd:string{
+        minLength="11"
+        maxLength="49"
+    }
+}
+
+paragraphe = element paragraphe {
+    element phrase { text }+ 
+}
+
+image = element image {
+    attribute src { xsd:string },
+    attribute date { xsd:date }
+}
+
+source = element source {
+    attribute src {xsd:string},
+    attribute annee {xsd:gYear}
+}
+
+auteur = element auteur {
+    element nom {text},
+    element prenom {text}
+}

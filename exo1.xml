@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+    href="exo1_relaxNg.rnc"    
+    type="application/relax-ng-compact-syntax" ?>
+
+<article
+    magazine="Forbes"
+    type="business"
+    annee="2019">
+    
+    <titre
+        couleur="noir">
+        Forbes 2019
+    </titre>
+    
+    <soustitre>
+        Recapitulatif de l'annee 2018
+    </soustitre>
+    
+    <paragraphe>
+        <phrase>L'annee 2018 fut pleines de surprises.</phrase>
+        <phrase>Voyons voir ca...</phrase>
+    </paragraphe>
+    
+    <paragraphe>
+        <phrase>L'annee 2018 fut pleines de surprises.</phrase>
+        <phrase>Voyons voir ca...</phrase>
+    </paragraphe>
+    
+    <image 
+        src=""
+        date="2019-01-12"/>
+    
+    <paragraphe>
+        <phrase>L'annee 2018 fut pleines de surprises.</phrase>
+        <phrase>Voyons voir ca...</phrase>
+    </paragraphe>
+    
+    <image 
+        src=""
+        date="2019-01-12"/>
+    
+    <auteur>
+        <nom>Dinh</nom>
+        <prenom>Lannie</prenom>
+    </auteur>
+    
+    <source
+        src=""
+        annee="2018">       
+    </source>
+    
+</article>
