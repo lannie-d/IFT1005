@@ -7,7 +7,7 @@ start = element article {
     titre,
     soustitre?,
     paragraphe,
-    (paragraphe* | image*), #erreur?
+    (paragraphe* & image*), #erreur?
     (source & auteur)
 }
 
@@ -31,12 +31,12 @@ paragraphe = element paragraphe {
 }
 
 image = element image {
-    attribute src { xsd:URI },
+    attribute src { xsd:anyURI },
     attribute date { xsd:date }
 }
 
 source = element source {
-    attribute src {xsd:URI},
+    attribute src {xsd:anyURI},
     attribute annee {xsd:gYear}
 }
 
