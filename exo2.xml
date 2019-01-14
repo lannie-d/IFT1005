@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-model
+    href="exo2_relaxNg.rnc"    
+    type="application/relax-ng-compact-syntax" ?>
+
+<fbi>
+    <personnes>
+        <personne id="p0" naissance="1994" sexe="M">
+            <prenom>Mihai</prenom>
+            <nom>Ionescu</nom>
+            <age>24</age>
+        </personne>
+        <personne id="p1" naissance="1999" sexe="F">
+            <prenom>Lilou</prenom>
+            <nom>Ionescu</nom>
+            <age>5</age>
+        </personne>
+        <personne id="p2" naissance="1991" sexe="F">
+            <prenom>Carla</prenom>
+            <nom>Abdelnour</nom>
+            <age>21</age>
+        </personne>
+        <personne id="p3" naissance="1989" sexe="M">
+            <nom>Brou</nom>
+            <prenom>Mathieu</prenom>
+            <age>24</age>
+        </personne>
+    </personnes>
+    <examens>
+        <examen ville="Paris" date="2000" eid="e0"/>
+        <examen ville="Montreal" date="2001" eid="e1"/>
+        <examen ville="Londres" date="2002" eid="e2"/>
+        <examen ville="New York" date="2003" eid="e3"/>
+    </examens>
+    <candidats>
+        <candidat resultat="98.25" evaluateur="p0" eidref="e0" idref="p2"/>
+        <candidat resultat="52.50" evaluateur="p1" eidref="e3" idref="p3"/>
+    </candidats>
+</fbi>
