@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+	<head> 
+		<title>Devoir 1</title> 
+		<meta charset="UTF-8"> 
+	</head> 
+	
+	<body> 
+		<!-- Équipier 1 : Lannie Dinh -->
+		<!-- Équipier 2 : Larissa Avononmadegbe  -->
+		
+		
+		<!-- Exercice 1 --> 
+		<section>
+		  <h1>Exercice 1</h1>
+		  <form id="exerciec-1">
+		    ...
+		  </form>
+		</section>
+		
+		
+		<!-- Exercice 2 --> 
+		<section>
+		  <h1>Exercice 2</h1>
+		  <form id="exerciec-2">
+		    ...
+		  </form>
+		</section>
+		
+		
+		<!-- Exercice 3 --> 
+		<section>
+		  <h1>Exercice 3</h1>
+		  <form id="exerciec-3">
+		    
+			<!--Champs nom complet-->
+			Nom complet: 
+			<input type="text" name="name" required size=30>
+			<br><br>
+			
+			<!--Champs adresse-->
+			Adresse:
+			<input type="text" name="address" required size=50>
+			<br><br>
+			
+			<!--Champs appartement(1)-->
+			Avez-vous un numéro d'appartement?
+			Oui <input type="radio" name="is-apartment" value="oui" checked>
+			Non <input type="radio" name="is-apartment" value="non">
+			<br><br>
+			
+			<!--Champs appartement(2)-->
+			Numéro appartement:
+			<input type="text" name="n-apartment" size=5>
+			<br><br>
+			
+			<!--Champs telephone-->
+			Téléphone:
+			<input type="text" name="tel" required pattern="(\(514\))-[0-9]{3}-[0-9]{4}">
+			<br><br><br>
+			
+			<!--Champs pizza(1)-->
+			Pizza (taille):
+			<select name="pizza-size" required> 
+				<option value="5$">petite</option> 
+				<option value="8$">moyenne</option> 
+				<option value="12$">grande</option> 				
+			</select>
+			<br><br>
+			
+			<!--Champs pizza(2)-->
+			Pizza (sorte):
+			<select name="pizza-type" required> 
+				<option value="13$">pepperoni</option> 
+				<option value="10$">double fromage</option> 
+				<option value="9$" selected>végétarienne</option> 
+				<option value="12$">végane</option>				
+			</select>
+			<br><br>
+			
+			<!--Champs pizza(qte)-->
+			Pizza (quantité):
+			<input type="text" name="pizza-quantité" required size=2 value=1 maxlength=2>
+			<br><br>
+		
+			<!--Champs pizza(extras) obligatoire!-->
+			Pizza (extras): 
+			aucun: <input type="checkbox" name="pizza-extras" checked> 
+			frites: <input type="checkbox" name="pizza-extras"> 
+			boisson: <input type="checkbox" name="pizza-extras"> 
+			poutine: <input type="checkbox" name="pizza-extras"> 
+			<br><br><br>
+		
+			<!--Bouton-->
+			<input type="submit" value="Commander">
+			<br><br>
+			
+			  </form>
+		</section>
+		
+	</body>
+</html>
