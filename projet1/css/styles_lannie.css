@@ -1,0 +1,171 @@
+
+
+div{
+	text-align:center;
+}
+/*petit sous-titre en jaune*/
+h2{
+	color : #ffae42;
+	font-family:Sergo-print;
+	/*text-align: center;*/
+	font-size: 15px;
+}
+
+
+/*sous-titre en noir*/
+h3{
+	color: black;
+	font-family: Sergo-print;
+	/*text-align: center;*/
+	font-size:33px;
+}
+
+
+/*paragraphe*/
+p{
+	color:grey;
+	font-family: Verdana;
+}
+
+
+/*bloc de division en ligne*/
+span {
+  display: inline-block;
+  outline: 1px solid;
+  outline-color: #D3D3D3;
+  margin-left:12px;
+  margin-right:12px;
+  border-radius:25%;
+}
+
+
+/*description*/
+ds{
+	color : black;
+	font-family: Sergo-print;
+	text-align: left;
+	font-size: 20px;
+}
+
+ds.contact{
+	text-align: center;
+	font-family: comis Sans MS;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:40px;
+}
+
+ds.media{
+	
+}
+
+p.contact{
+	text-align: center;
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:40px;
+}
+
+/*styles temoignages*/
+name_test{
+	color : #ffae42;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+job_test{
+	color: gray;
+	font-family:Verdana;
+	font-size:15px;
+}
+
+img.test{
+	margin-left:40px; 
+	margin-right:20px;
+}
+
+ds.test{
+	text-align:left;
+}
+
+span.test{
+	 width:530px; 
+	 height:220px;
+}
+/*styles blog*/
+date_blog{
+	color : #ffae42;
+	/*margin-left:20px;*/
+	text-align: left;
+	font-family: Helvetica;
+	cursor: pointer;
+}
+
+p.blog{
+	display:inline; 
+	margin-left:100px;
+	cursor: pointer;
+	
+}
+
+img.blog{
+	width:350px;
+	height:230px;
+}
+
+ds.blog{
+	margin-left:20px;
+
+	text-align: left;
+	font-size: 20px;
+}
+
+button.blog{
+	margin-left:10px;
+	background-color: #f1f1f1;
+	padding: 10px;
+	color: grey;
+}
+
+button{
+	border-radius:30px;
+	background-color: #ffae42;
+}
+
+/*styles gallerie*/
+img.gallery{
+	width: 24.7%;/*405px;*/
+	height: 330px; 
+}
+
+footer{
+	text-align: center;
+}
+
+/*
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+*/
