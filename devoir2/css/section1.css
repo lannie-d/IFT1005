@@ -1,13 +1,18 @@
-
+/*
+Je me suis inspiréee de l'outil inspecter l'elément pour centrer
+les elements car align-items:center n'avait pas d'effet
+*/
 .general{
 
 	background-color: #f3f3f3;
 	padding-top: 100px;
 	padding-bottom: 140px;
-	display:block;
 	align-items: center;
+	text-align: center;
+	align-content: center;
 	margin-right:-10px;
 	margin-left:-10px;
+	display: flex;
 }
 
 .first{
@@ -28,14 +33,19 @@
 	margin-right:15px;
 
 
+
+}
+.all{
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 
 
 table{
-	display:flex;
-	margin:30px;
-	padding:0px;
+	display:block;
+	
 }
 
 
