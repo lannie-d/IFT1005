@@ -1,4 +1,22 @@
+Coéquipiers:
+Larissa Avononbadegbe
+Lannie Dinh 20049792
+
+Site web: 
+Site web original: https://demo.athemes.com/airi-restaurant/
+
+Séparation des tâches:
+Larissa: menu de navigation, home(debut jusqu'au menu inclusivement), contact(formulaire)
+Lannie: pied de page, home(testimonials jusqu'à la fin), contact(blocs infos contact)
+
 Problèmes rencontrés:
 
 En html il a fallu que je modifie la structure de mon fichier parce qu'il n'était pas convenable pour réussir la mise en forme. En css, j'ai eu beaucoup de difficultés avec les margin et padding, les espacements, le fait de centrer les éléments car align-items:center ne répondait pas à mes attentes.
+
+Difficulté: faire la bonne disposition des textes et images
+Solution: utilisation de tableaux 
+
+Difficulté: gérer les différentes tailles, couleurs et polices de textes et tous les styles pour les différents éléments
+Solution: création de plusieurs classes CSS dont certains étant associés à un élément spécifique (ex: div.center, la classe "center" qui s'applique seulement à l'élément div. Cela a aidé à la gestion des classes.
+
  
