@@ -1,0 +1,4 @@
+Problèmes rencontrés:
+
+En html il a fallu que je modifie la structure de mon fichier parce qu'il n'était pas convenable pour réussir la mise en forme. En css, j'ai eu beaucoup de difficultés avec les margin et padding, les espacements, le fait de centrer les éléments car align-items:center ne répondait pas à mes attentes.
+ 
