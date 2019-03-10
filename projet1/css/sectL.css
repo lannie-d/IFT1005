@@ -1,0 +1,359 @@
+.navim{
+	float: left;
+	
+	
+}
+.nav{
+	margin-right:80px;
+	float: right;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	padding-left: 75px;
+
+}
+nav{
+	height: 10px;
+	margin-left: 65px;
+	margin-top: 25px;
+    background-color: white;
+	margin-bottom: 100px;
+	width:100%;
+	padding-top: 50px;
+}
+.loupe{
+	width:15px;
+	height: 15px;
+	padding-left: 75px;
+	cursor: pointer;
+}
+
+form{
+	display: inline;
+}
+
+.cover{
+	background-color: #000000;
+	opacity:0.7;
+	height: 100%;
+	width:100%;
+	position: absolute;
+
+}
+
+.first{
+	margin-top: 20px;
+	height:600px;
+	background-image: url("http://demo.athemes.com/atu-restaurant/wp-content/uploads/sites/91/2018/07/header.jpg");
+	background-position: center;
+	background-size: 100%;
+	position: relative;
+	width: 110vw;
+}
+.title{
+	color: white;
+	font-size: 80px;
+	text-align: left;
+	font-family: serif;
+	padding-top: 200px;
+	padding-left: 150px;
+	position: relative;
+}
+.parag{
+	color:white;
+	font-size: 20px;
+	text-align: left;
+	font-family: serif;
+	padding-left: 150px;
+	position: relative;
+}
+.button{
+	margin-top: 20px;
+	padding-left: 150px;
+	position: relative;
+	
+}
+.bgYel{
+	background-color: #d7af50;
+}
+button{
+	
+  	border-radius: 30px;
+  	border-color: #d7af50;
+  	color: white;
+	font-size: 12px;
+	font-family:Verdana;
+	cursor: pointer;
+	width: 150px;
+	height: 30px;
+
+
+}
+.sec{
+	height:500px;
+	background-image: url("http://demo.athemes.com/atu-restaurant/wp-content/uploads/sites/91/2018/07/abg.png");
+	background-position: center;
+	background-size: cover;
+	width: 110vw;
+	
+}
+
+.fside{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	color:grey;
+
+}
+.sside{
+	margin-top: 100px;
+	float: right;
+	margin-right: 45px;
+	
+	margin-bottom: 20px;
+	height: 70%;
+	
+
+}
+.welcome{
+
+	font-size:15px;
+	color: #d7af50;
+	font-weight: bold;
+
+}
+.restau{
+
+	font-size:30px;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 20px;
+
+}
+.resum{
+	padding-bottom: 50px;
+}
+.button1{
+	background-image: url("http://demo.athemes.com/atu-restaurant/wp-content/uploads/sites/91/2018/07/abg.png");
+	color:black;
+	background-size: 100%;
+
+}
+.firstim{
+	width: 70%;
+	height: 100%;
+}
+.third{
+	height:500px;
+	background-color: #FFFFFF;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	width: 110vw;
+	
+}
+#pad{
+	margin-top: 100px;
+}
+.contain{
+	margin-top:100px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	width: 100%;
+	
+}
+.containerimg{
+	padding-left: 100px;
+
+
+}
+.titlei{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.fourth{
+	height:800px;
+	background-image: url("http://demo.athemes.com/atu-restaurant/wp-content/uploads/sites/91/2018/07/Background.png");
+	background-position: center;
+	background-size: cover;
+	width: 110vw;
+	
+	
+
+}
+
+
+
+
+img{
+	max-width: 100%;
+}
+.ensemble{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+.head{
+	color:white;
+    margin-left: 40px;
+	padding-top: 60px;
+	display: flex;
+}
+.head1{
+	float: left;
+
+}
+.head2{
+	float: right;
+	
+}
+.ourMenu{
+
+	font-size:40px;
+	font-weight: bold;
+	
+
+}
+.button2{
+	background-image: url("http://demo.athemes.com/atu-restaurant/wp-content/uploads/sites/91/2018/07/Background.png");
+	color:white;
+	background-size: 100%;
+	height: 50px;
+	width:200px;
+	margin-right: 60px;
+	margin-left: 900px;
+
+}
+.menu{
+	
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 90%;
+   
+}
+.price{
+	margin-top:20px;
+	color: #d7af50;
+	font-weight: bold;
+	float: right;
+	font-size: 20px;
+	margin-left: 200px;
+}
+
+
+table{
+	
+	width:100%;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 100px;
+	margin-top: 100px;
+
+}
+
+.flex{
+	display: flex;
+}
+.im{
+	
+	color:white;
+	margin-left: 20px;
+	margin-top:20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+td{
+	padding-left: 80px;
+	padding-bottom: 45px;
+
+}
+
+/*
+Contact css
+*/
+.formulaire{
+
+	width: 100%;
+	padding-left: 60px;
+	margin-top: 50px;
+	margin-right: 50px;
+
+}
+.lign{
+	text-align: center;
+}
+.cont{
+	display: inline;
+}
+.ligne{
+	border-top-style: solid;
+	border-top-width:3px;
+	text-align: center;
+	display: inline-block;
+	color: #d7af50;
+	width:80px;
+
+}
+textarea{
+
+	width:95%;
+	height: 100px;
+
+}
+legend{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#spec{
+	text-align: center;
+}
+#specinp{
+	width:90%;
+}
+.input{
+	width:100%;
+	height: 60px;
+}
+input{
+	width:85%;
+	height: 100%;
+}
+select{
+	width:90%;
+	border:1px solid #ebebeb;
+
+}
+.r1{
+	display: flex;
+	width: 100%;
+	margin-bottom: 50px;
+
+}
+.butt{
+	text-align: center;
+	background-color: #d7af50;
+	height:50px;
+	width: 150px;
+}
+.butto{
+	text-align: center;
+	margin-top: 50px;
+	
+}
+/*
+.menu{
+	
+	width:100%;
+}*/
