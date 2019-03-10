@@ -3,7 +3,7 @@
  <head>
  <meta charset="utf-8">
  <title>Contact - Restaurant</title>
- <link rel="stylesheet" href="./css/sectL.css">
+ <link rel="stylesheet" href="sectL.css">
  </head>
  
  
@@ -13,9 +13,9 @@
  	<div class="formulaire">
  		<form action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi" class="cont">
  		<div class="r1">
- 			<div class="input"><legend>Your Name (required)</legend><input type="text" name=""></div>
- 			<div  class="input"><legend>Your Email (required)</legend><input type="" name=""></div>
- 			<div  class="input"><legend>Phone</legend><input type="text" name=""></div>
+ 			<div class="input"><legend>Your Name (required)</legend><input type="text" name="name" required></div>
+ 			<div  class="input"><legend>Your Email (required)</legend><input type="email" name="email"></div>
+ 			<div  class="input"><legend>Phone</legend><input type="text" name="phone"></div>
  		</div>
  		<div class="r1">
  			<div class="input"><legend>Pick your service</legend>
@@ -24,7 +24,7 @@
  				<option>Planning</option>
  				<option>Nutrition</option>
  			</select></div>
- 			<div class="input"><legend>Subject</legend><input type="text" name="" id="specinp"></div>
+ 			<div class="input"><legend>Subject</legend><input type="text" name="subject" id="specinp"></div>
  		</div>
  		<div class="solo"><legend>Your Message</legend><textarea></textarea></div>
  		<div  class="butto"><button class="butt">SEND</button></div>
