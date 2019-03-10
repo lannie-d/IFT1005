@@ -1,5 +1,4 @@
 
-
 div{
 	text-align:center;
 }
@@ -38,6 +37,23 @@ span {
   border-radius:25%;
 }
 
+.left{
+	text-align:left;
+}
+
+.black{
+	background-color: black;
+}
+
+.white{
+	color:white;
+}
+
+hr.index{
+	opacity:0.3; 
+	width:50%; 
+	margin-right:100%;
+}
 
 /*description*/
 ds{
@@ -58,7 +74,8 @@ ds.contact{
 }
 
 ds.media{
-	
+	font-size:30px;
+	font-weight:bold;
 }
 
 p.contact{
@@ -81,6 +98,16 @@ job_test{
 	font-size:15px;
 }
 
+apos{
+	font-weight:bold;
+	font-size:100px;
+	margin-left:110px;
+	margin-top:-20px;
+	position: absolute;
+	color:orange;
+	opacity: 0.2;
+}
+
 img.test{
 	margin-left:40px; 
 	margin-right:20px;
@@ -95,12 +122,12 @@ span.test{
 	 height:220px;
 }
 /*styles blog*/
-date_blog{
+.date_blog{
 	color : #ffae42;
-	/*margin-left:20px;*/
-	text-align: left;
+	margin-right:200px;
 	font-family: Helvetica;
 	cursor: pointer;
+	outline: none;
 }
 
 p.blog{
@@ -140,32 +167,87 @@ img.gallery{
 	height: 330px; 
 }
 
+
+.div_contact{
+	margin-left:190px; 
+	text-align:left;
+}
+
 footer{
 	text-align: center;
 }
 
-/*
+table.contact, td.contact{
+	border:1px solid #D3D3D3; 
+	border-collapse:collapse;
+}
+
+hr.contact{
+	opacity:0.1;
+}
+
+hr.contact2{
+	width:65%; 
+	opacity:0.3;
+}
+
+img.contact{
+	width:20px;
+	height:20px; 
+	margin-left:20px; 
+	margin-right:20px;
+}
+
+input.contact{
+	padding-top:15px; 
+	padding-bottom:15px; 
+	padding-left:20px; 
+	padding-right:20px;
+	color:grey;
+}
+
+button.contact{
+	padding:15px; 
+	padding-left:25px; 
+	padding-right:25px; 
+	color:white;
+	cursor: pointer;
+}
+
+li.contact{
+	display:inline;
+}
+
+
+.vlad:link{
+	color:black;
+}
+
+.vlad:hover{
+	color:orange;
+}
+
 a:link {
-  color: green; 
+  color: gray; 
   background-color: transparent; 
   text-decoration: none;
 }
 
 a:visited {
-  color: pink;
+  color: gray;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: red;
+  color: black;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
   color: yellow;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
-*/
+
