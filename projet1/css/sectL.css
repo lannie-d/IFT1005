@@ -189,7 +189,15 @@ button{
 
 }
 
+.ligne2{
+	border-top-style: dashed;
+	border-top-width:0.5px;
+	text-align: left;
+	color: white;
+	width:70%;
+	margin: 3px;
 
+}
 
 
 img{
@@ -199,11 +207,14 @@ img{
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	min-width: 1000px;
 
 }
 .head{
 	color:white;
-    margin-left: 40px;
+    margin-left: 200px;
 	padding-top: 60px;
 	display: flex;
 }
@@ -254,8 +265,7 @@ table{
 	
 	width:100%;
 	height: 100%;
-	margin-left: 20px;
-	margin-right: 100px;
+	margin-left:100px;
 	margin-top: 100px;
 
 }
