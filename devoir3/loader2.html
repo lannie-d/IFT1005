@@ -1,0 +1,79 @@
+<!DOCTYPE html>  
+	<html lang="fr">  
+		<head>  
+			<title>Loaders</title>  
+			<meta charset="UTF-8"> 
+		</head>  
+		<body> 
+			<section><svg width="1500" height="500">
+			
+				<circle id="orange-circle1" r="10" cx="700" cy="350" fill="orange" />
+				<circle id="orange-circle2" r="10" cx="730" cy="350" fill="orange" />
+				<circle id="orange-circle3" r="10" cx="760" cy="350" fill="orange" />
+				
+				<animate 
+					xlink:href="#orange-circle1"
+					attributeName="r"
+					from="0"
+					to="0" 
+					dur="1.6s"
+					values="0;10;0;0"
+					begin="0s"
+					repeatCount="indefinite"	
+				/>
+				
+				<animate 
+					xlink:href="#orange-circle2"
+					attributeName="r"
+					from="0"
+					to="0" 
+					dur="1.6s"
+					values="0;10;0;0"
+					begin="0.2s"
+					repeatCount="indefinite"	
+				/>
+				
+				<animate 
+					xlink:href="#orange-circle3"
+					attributeName="r"
+					from="0"
+					to="0" 
+					dur="1.6s"
+					values="0;10;0;0"
+					begin="0.3s"
+					repeatCount="indefinite"	
+				/>
+			  
+
+			</svg></section>
+
+			<section><svg width="1500" height="500">
+			
+				<circle id="opaque-circle1" r="50" cx="700" cy="350" fill="gray" />
+				
+				<animate 
+					xlink:href="#opaque-circle1"
+					attributeName="r"
+					from="0"
+					to="30" 
+					dur="0.8s"
+					values="0;10;20;30"
+					begin="0s"
+					repeatCount="indefinite"	
+				/>
+				<animate 
+					xlink:href="#opaque-circle1"
+					attributeName="opacity"
+					from="1"
+					to="0" 
+					dur="0.8s"
+					begin="0s"
+					repeatCount="indefinite"	
+				/>
+				
+				
+			  
+
+			</svg></section>
+		</body>  
+	</html> 
