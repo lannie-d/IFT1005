@@ -1,0 +1,8 @@
+Le rapport doit contenir :
+Les noms et matricule de chaque coéquipier.
+L'adresse vers votre site web.
+Les librairies que vous avez utilisées.
+Les sites web dont vous vous êtes inspirés.
+Une description du travail réalisé par chaque étudiant.
+Les difficultés que vous avez rencontrées.
+[Facultatif] Suggestions pour améliorer le projet.
