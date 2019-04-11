@@ -35,13 +35,14 @@ body {
   position: fixed;
   width: 100%;
   max-height: 100px;
+
   
   background-color: white;
 
  }
 #menu {
   
-  
+   min-width: 500px;
   /*background-attachment: scroll;
   /*top: 50%;
   width: 8em;
@@ -85,28 +86,25 @@ h1{
 	margin-top: 100px;
 	back
 }
-#ensemble1{
-	display: block;
-	
-}
-#title1{
+
+.title{
 	text-align: center;
 }
-#subT1{
+.subT{
 	float: left;
 	font-size: 30px;
 
 	padding-top: 100px;
 	
 }
-#content1{
+.content{
 	padding-top: 150px;
 
 	float: left;
 
 	
 }
-#img1{
+.img{
 	float:right;
 
 }
