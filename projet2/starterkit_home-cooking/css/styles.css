@@ -1,0 +1,211 @@
+/*==============================================*/
+/* Fonts                                        */
+/*==============================================*/
+
+:root,
+body, 
+header, 
+footer, 
+section, 
+article, 
+div, 
+ul, ol, li, 
+p, a, span,
+label, input, button {
+	font-family: 'Roboto', arial;
+};
+
+body {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+
+/*==============================================*/
+/* Navigation                                   */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: header, nav, ul, li, a, div.
+ */
+ header{
+ 	padding-bottom: 20px;
+  display: block;
+  position: fixed;
+  width: 100%;
+  max-height: 100px;
+  
+  background-color: white;
+
+ }
+#menu {
+  
+  
+  /*background-attachment: scroll;
+  /*top: 50%;
+  width: 8em;
+  margin-top: -2.5em;*/
+}
+#logo{
+	margin-left: 10px;
+	float:left;
+	margin-top: 30px;
+}
+#links{
+	margin-top: 50px;
+	float: right;
+	display: block;
+}
+.space{
+	margin-left: 200px;
+	margin-right: 40px;
+}
+
+/*==============================================*/
+/* Articles                                     */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, h2, section, article.
+ */
+body{
+
+	/*background-image: url("../assets/restaurant.jpg");*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+h1{
+	text-align: center;
+}
+#Acceuil{
+	text-align: center;
+	margin-top: 100px;
+	back
+}
+#ensemble1{
+	display: block;
+	
+}
+#title1{
+	text-align: center;
+}
+#subT1{
+	float: left;
+	font-size: 30px;
+
+	padding-top: 100px;
+	
+}
+#content1{
+	padding-top: 150px;
+
+	float: left;
+
+	
+}
+#img1{
+	float:right;
+
+}
+article{
+	margin-bottom: 800px;
+}
+/*==============================================*/
+/* Recipes                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, ul, li, p.
+ */
+ 
+ #Recettes h1{
+	font-size: 60px;
+	text-align: center;
+	font-family: Forte;
+ }
+ 
+ #Recettes p {
+	  text-align: center;
+	  font-size: 35px;
+	  font-family: Consolas ;
+ }
+
+ 
+/*==============================================*/
+/* Contact                                      */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, label, input.
+ */
+ #Contact{
+	text-align: center;
+	
+ }
+ #Contact h1{
+	font-size: 40px;
+	text-align: center;
+ }
+ 
+ #Contact label{
+	 color: blue;
+	 font-size: 20px;
+ }
+ 
+ #Contact input{
+	 border: 2px solid #3CBC8D;;
+	 border-radius: 4px;
+	 padding: 12px 20px;
+	 margin: 8px 0;
+ }
+
+ #Contact textarea{
+	 border: 2px solid #3CBC8D;;
+	 border-radius: 4px;
+	 padding: 12px 20px;
+	 margin: 8px 0;
+ } 
+ 
+ #Contact input[type=submit] {
+  width: 30%;
+  background-color: gray;
+  color: white;
+ }
+ 
+ #Contact input[type=reset] {
+  width: 30%;
+  background-color: black;
+  color: white;
+ }
+
+/*==============================================*/
+/* Footer                                       */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: p.
+ */
+ #footer{
+	 text-align: center;
+ }
+ 
+ #footer img.contact{
+	width:20px;
+	height:20px; 
+	margin-left:20px; 
+	margin-right:20px;
+}
+
+#footer li.contact{
+	display:inline;
+}
+
+#medias{
+	text-align=center;
+}

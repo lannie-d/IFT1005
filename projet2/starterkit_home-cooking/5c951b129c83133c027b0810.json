@@ -1,0 +1,23 @@
+{
+	"recipes":[
+	{"price":8,"description":"Une belle lasagne végée","imgUrl":""},
+	{"price":5.5,"description":"Tofu général Tao succulant","imgUrl":""},
+	{"price":7.25,"description":"Burger au tempeh BBQ accompagé d'une salade de coucous aux raisins","imgUrl":""},
+	{"price":4.5,"description":"Salade aux macaronis, pommes de terre et pommes sucrées","imgUrl":""},
+	{"price":6,"description":"Sauté de légumes asiatique au tofu et arricots rouges","imgUrl":""},
+	{"price":4.75,"description":"Salade aux fruits et sauce patissières","imgUrl":""},
+	{"price":4,"description":"Soupe de tofu et gingembre","imgUrl":""},
+	{"price":9.5,"description":"Salade au saumon fumés et avocats sur lit de riz","imgUrl":""},
+	{"price":9.5,"description":"Croquettes de quinoa accompagnées de zucinii à l'italienne","imgUrl":""},
+	{"price":8,"description":"Poutine végane (sauce aux aricots rouges)","imgUrl":""},
+	{"price":7.25,"description":"Tofu au beurre et noix de coco","imgUrl":""},
+	{"price":4,"description":"Boules d'énergie faites à base de quinoa","imgUrl":""}],
+
+
+	"articles":[{"imgUrl":"NO IMAGE, PLEASE FIND ONE :(","content":"Sylvie est une très bonne cuisinière issue d'une famille de végétariens assumés. Elle a longtemps rêvé de faire découvrir au monde entier ses recettes simples et délicieuses.","subtitle":"Une passionnée de la cuisine végane!","title":"Qui suis-je?"},
+
+		{"imgUrl":"NO IMAGE, PLEASE FIND ONE :(","content":"Sylvie se spécialise dans la préparation de repas à base de tofu. Elle prépare les meilleurs plats de tofu de son cartier!","subtitle":"Un aliment magique","title":"Spécialité"},
+		{"imgUrl":"NO IMAGE, PLEASE FIND ONE :(","content":"Très sociale, Sylvie participe activement à des compétitions culinaires. Elle a remporté plusieurs médailles au courant de sa carrière (dont une d'or)!","subtitle":"Et féroce!","title":"Compétitive"}],
+
+	
+	"email":"sylvie.belanger@recettesmagiques.org","lastName":"Bélanger","firstName":"Sylvie","documentTitle":"Les recettes magiques de Sylvie"}
