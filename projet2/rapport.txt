@@ -7,7 +7,7 @@ Une description du travail réalisé par chaque étudiant.
 Les difficultés que vous avez rencontrées.
 [Facultatif] Suggestions pour améliorer le projet.
 
-Larissa Avononmadegbe ?
+Larissa Avononmadegbe 20110688
 Lannie Dinh 20049792
 
 URL du site web: 
@@ -21,6 +21,10 @@ Sites web inspirations:
 Séparation des tâches:
 
 Larissa:
+ Je me suis chargée 
+
+
+
 
 Lannie:
 - section recettes avec utilisation de caroussel
