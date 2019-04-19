@@ -30,23 +30,19 @@ body {
  * following elements: header, nav, ul, li, a, div.
  */
  header{
- 	padding-bottom: 20px;
+  padding-bottom: 20px;
   display: block;
   position: fixed;
   width: 100%;
   max-height: 100px;
 
   
-  background-color: white;
+  background-color:black;
 
  }
 #menu {
   
-   min-width: 500px;
-  /*background-attachment: scroll;
-  /*top: 50%;
-  width: 8em;
-  margin-top: -2.5em;*/
+  background-attachment: scroll;
 }
 #logo{
 	margin-left: 10px;
@@ -57,10 +53,14 @@ body {
 	margin-top: 50px;
 	float: right;
 	display: block;
+	padding-left:70px; 
+	margin-right:50px;
+
 }
 .space{
-	margin-left: 200px;
-	margin-right: 40px;
+	color:white;
+	margin-left: 100px;
+	
 }
 
 /*==============================================*/
@@ -73,43 +73,66 @@ body {
  */
 body{
 
-	/*background-image: url("../assets/restaurant.jpg");*/
-	background-repeat: no-repeat;
-	background-size: 100%;
+	
 	
 }
-h1{
-	text-align: center;
-}
+
 #Acceuil{
-	text-align: center;
-	margin-top: 100px;
-	back
+
+	
+
+
 }
 
 .title{
 	text-align: center;
+	font-size: 80px;
+	font-style:italic;
+	font-family: "Times New Roman", serif;
 }
 .subT{
+	font-family: "Times New Roman", serif;
+	font-style:oblique;
 	float: left;
 	font-size: 30px;
-
-	padding-top: 100px;
+	margin-left: 20px;
+	margin-top: 30px;
 	
 }
+.icontent{
+	
+	margin-top: 100px;
+	width: 100%;
+}
 .content{
-	padding-top: 150px;
 
+	max-width: 300px;
+	margin-left: 50px;
+	margin-top: 70px;
+	width: 50%;
 	float: left;
+	font-size: 25px;
+	text-align: justify;
+	font-family: "Times New Roman", serif;
+	
 
 	
 }
 .img{
 	float:right;
+	width: 50%;
+	display: block;
+
+}
+.imgR{
+	float:right;
+	width: 70%;
 
 }
 article{
-	margin-bottom: 800px;
+
+	padding-bottom: 900px;
+
 }
 /*==============================================*/
 /* Recipes                                      */
