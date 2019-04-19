@@ -18,6 +18,7 @@ label, input, button {
 body {
 	font-size: 1rem;
 	font-weight: 300;
+
 }
 
 
@@ -34,15 +35,15 @@ body {
   display: block;
   position: fixed;
   width: 100%;
-  max-height: 100px;
 
-  
   background-color:black;
 
  }
 #menu {
+
   
   background-attachment: scroll;
+
 }
 #logo{
 	margin-left: 10px;
@@ -50,16 +51,18 @@ body {
 	margin-top: 30px;
 }
 #links{
+
+	overflow: auto;
+	white-space: nowrap;
 	margin-top: 50px;
 	float: right;
-	display: block;
 	padding-left:70px; 
 	margin-right:50px;
 
 }
 .space{
 	color:white;
-	margin-left: 100px;
+	padding:14px;
 	
 }
 
@@ -85,33 +88,36 @@ body{
 }
 
 .title{
+	
 	text-align: center;
-	font-size: 80px;
+	font-size: 420%;
 	font-style:italic;
 	font-family: "Times New Roman", serif;
+	margin-bottom: 100px;
 }
 .subT{
+	
 	font-family: "Times New Roman", serif;
 	font-style:oblique;
 	float: left;
-	font-size: 30px;
+	font-size: 210%;
 	margin-left: 20px;
 	margin-top: 30px;
 	
 }
 .icontent{
-	
-	margin-top: 100px;
+	 
+	margin-top: 200px;
 	width: 100%;
 }
 .content{
 
-	max-width: 300px;
-	margin-left: 50px;
-	margin-top: 70px;
+	max-width: 50%;
+	margin-left: 10%;
+	margin-top: 60px;
 	width: 50%;
 	float: left;
-	font-size: 25px;
+	font-size: 140%;
 	text-align: justify;
 	font-family: "Times New Roman", serif;
 	
@@ -126,7 +132,8 @@ body{
 }
 .imgR{
 	float:right;
-	width: 70%;
+	width:75%;
+	
 
 }
 article{
