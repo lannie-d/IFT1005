@@ -18,18 +18,13 @@
       crossorigin="anonymous"
     />
 	
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
     <!-- My CSS -->
     <!-- ================================= -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-
-      <title id="title">Document</title>
-  </head>
-
-    <!-- JS Libraries -->
+	
+	<!-- JS Libraries -->
     <!-- ================================= -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -55,19 +50,28 @@
     <!-- My Scripts -->
     <script src="./js/scripts.js"></script>
     <script src="./js/_data_.js"></script>
+	
+	
+	<!--Librairie additionnelle: slick pour caroussels-->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+      <title id="title">Document</title>
+  </head>
+
+    
 
 
   
   <body>
-  	<iframe width="854" height="480" src="https://www.youtube.com/embed/ZZZY6tOI2G8?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen hidden="true" volume="20"></iframe>
- 
+
   		<header>
 		    <nav id="menu">
 		      <div id="logo">
-		       <img src="./assets/logo.png" width="100">
+		       <img src="./assets/logo.png" alt="logo" width="100">
 		      <svg width="100" height="50">
   			<circle cx="50" cy="50" r="40" stroke="gray" stroke-width="1" fill="green" />
-  			<text font-size="10" fill=white font-family="Verdana" x="25" y="40">Sylvie <3</text>
+  			<text font-size="10" fill=white font-family="Verdana" x="25" y="40">Sylvie &lt;3</text>
 			</svg>
 
 		   </div>
@@ -86,11 +90,12 @@
     <section id="Accueil">
     	<br><br><br><br><br><br><br>
       
+	  <h1>Accueil</h1>
 	 
 	  
       <article id="article1" class="article">
       
-      	<div id="title1"  class="title" ></div>
+      	<h2 id="title1"  class="title" >titre article 1</h2>
         <div id="subT1" class="subT"></div>
         <div class="icontent">
 
@@ -100,13 +105,13 @@
           <img src="./assets/img1.jpg" alt="img article 1" width="500" class="imgR">
         </div>
 
-       </div></div>
+       </div>
         
       </article>
 
        <article id="article2" class="article">
 
-        <div id="title2" class="title"></div>
+        <h2 id="title2" class="title">titre article 2</h2>
         <div id="subT2" class="subT"></div>
          <div class="icontent"><div id="content2" class="content"></div>
        <div id="img2"  class="img">
@@ -120,7 +125,7 @@
 
         <article id="article3" class="article">
 
-        <div id="title3" class="title"></div>
+        <h2 id="title3" class="title">titre article 3</h2>
         <div id="subT3" class="subT"></div>
          <div class="icontent">  
          	<div id="content3" class="content"></div>
@@ -140,62 +145,62 @@
 		<div class="multiple-items">
 		<!--les 12 recettes du fichier aunt.json -->
 		<div>
-			<img id="imgRecette1" src="./assets/imgRec1.jpg" alt="img Recette 1" height="500px">
+			<img id="imgRecette1" src="./assets/imgRec1.jpg" alt="img Recette 1" height="500">
 			<p id="titreRecette1"></p>
 			<p id="prix1"></p>
 		</div>
 		<div>
-			<img id="imgRecette2" src="./assets/imgRec2.jpg" alt="img Recette 2" height="500px" >
+			<img id="imgRecette2" src="./assets/imgRec2.jpg" alt="img Recette 2" height="500" >
 			<p id="titreRecette2"></p>
 			<p id="prix2"></p>
 		</div>
 		<div>
-			<img id="imgRecette3" src="./assets/imgRec3.jpg" alt="img Recette 3" height="500px">
+			<img id="imgRecette3" src="./assets/imgRec3.jpg" alt="img Recette 3" height="500">
 			<p id="titreRecette3"></p>
 			<p id="prix3"></p>
 		</div>
 		<div>
-			<img id="imgRecette4" src="./assets/imgRec4.jpg" alt="img Recette 4" height="500px" >
+			<img id="imgRecette4" src="./assets/imgRec4.jpg" alt="img Recette 4" height="500" >
 			<p id="titreRecette4"></p>
 			<p id="prix4"></p>
 		</div>
 		<div>
-			<img id="imgRecette5" src="./assets/imgRec5.jpg" alt="img Recette 5" height="500px" >
+			<img id="imgRecette5" src="./assets/imgRec5.jpg" alt="img Recette 5" height="500" >
 			<p id="titreRecette5"></p>
 			<p id="prix5"></p>
 		</div>
 		<div>
-			<img id="imgRecette6" src="./assets/imgRec6.jpg" alt="img Recette 6" height="500px" >
+			<img id="imgRecette6" src="./assets/imgRec6.jpg" alt="img Recette 6" height="500" >
 			<p id="titreRecette6"></p>
 			<p id="prix6"></p>
 		</div>
 		<div>
-			<img id="imgRecette7" src="./assets/imgRec7.jpg" alt="img Recette 7" height="500px" >
+			<img id="imgRecette7" src="./assets/imgRec7.jpg" alt="img Recette 7" height="500" >
 			<p id="titreRecette7"></p>
 			<p id="prix7"></p>
 		</div>
 		<div>
-			<img id="imgRecette8" src="./assets/imgRec8.jpg" alt="img Recette 8" height="500px" >
+			<img id="imgRecette8" src="./assets/imgRec8.jpg" alt="img Recette 8" height="500" >
 			<p id="titreRecette8"></p>
 			<p id="prix8"></p>
 		</div>
 		<div>
-			<img id="imgRecette9" src="./assets/imgRec9.jpg" alt="img Recette 9" height="500px">
+			<img id="imgRecette9" src="./assets/imgRec9.jpg" alt="img Recette 9" height="500">
 			<p id="titreRecette9"></p>
 			<p id="prix9"></p>
 		</div>
 		<div>
-			<img id="imgRecette10" src="./assets/imgRec10.jpg" alt="img Recette 10" height="500px">
+			<img id="imgRecette10" src="./assets/imgRec10.jpg" alt="img Recette 10" height="500">
 			<p id="titreRecette10"></p>
 			<p id="prix10"></p>
 		</div>
 		<div>
-			<img id="imgRecette11" src="./assets/imgRec11.jpg" alt="img Recette 11" height="500px" >
+			<img id="imgRecette11" src="./assets/imgRec11.jpg" alt="img Recette 11" height="500" >
 			<p id="titreRecette11"></p>
 			<p id="prix11"></p>
 		</div>
 		<div>
-			<img id="imgRecette12" src="./assets/imgRec12.jpg" alt="img Recette 12" height="500px">
+			<img id="imgRecette12" src="./assets/imgRec12.jpg" alt="img Recette 12" height="500">
 			<p id="titreRecette12"></p>
 			<p id="prix12"></p>
 		</div>
@@ -209,32 +214,32 @@
 				<h1>Contactez-nous!</h1>
 				<br>
 				<!--Champs nom complet-->
-				<label for="name">Nom complet</label> <br>
-				<input type="text" name="name" required size=35 placeholder="Entrez votre nom, prénom...">
+				<label for="formName">Nom complet</label> <br>
+				<input type="text" id="formName" name="name" required size=35 placeholder="Entrez votre nom, prénom...">
 				<br><br>
 				
 				<!--Champs adresse-->
-				<label for="address">Adresse</label> <br>
-				<input type="text" name="address" required size=30 placeholder="Entrez votre adresse...">
+				<label for="formAdress">Adresse</label> <br>
+				<input type="text" id="formAdress" name="address" required size=30 placeholder="Entrez votre adresse...">
 				<br><br>
 				
 				<!--Champs ville-->
-				<label for="ville">Ville</label> <br>
-				<input type="text" name="ville" required size=25 placeholder="Entrez votre ville...">
+				<label for="formVille">Ville</label> <br>
+				<input type="text" id="formVille" name="ville" required size=25 placeholder="Entrez votre ville...">
 				<br><br>
 				
 				<!--Champs code postal AVEC VALIDITÉ = CLC LCL (C: chiffre; L: lettre).-->
-				<label for="codepostal">Code postal</label> <br>
-				<input type="text" name="codepostal" required size=10  placeholder="H1H 4B4">
+				<label for="formCP">Code postal</label> <br>
+				<input type="text" id="formCP" name="codepostal" required size=10  placeholder="H1H 4B4">
 				<br><br>
 				
 				<!--Champs telephone AVEC VALIDITÉ =  YYYXXXXXXX (YYY = 514 ou 483 ou 450).-->
-				<label for="tel">Téléphone</label> <br>
-				<input type="text" name="tel" size=33 required pattern="(514||483||450)[0-9]{7}"  placeholder="5149997777(area code 514/438/450)">
+				<label for="formTel">Téléphone</label> <br>
+				<input type="text" id="formTel" name="tel" size=33 required pattern="(514||483||450)[0-9]{7}"  placeholder="5149997777(area code 514/438/450)">
 				<br><br>
 
-				<label for="message">Message</label> <br>
-				<TEXTAREA name="message" cols=50 required placeholder="Veuillez indiquer ce que vous voulez acheter..."></TEXTAREA>
+				<label for="formMess">Message</label> <br>
+				<TEXTAREA id="formMess" name="message" cols=50 required placeholder="Veuillez indiquer ce que vous voulez acheter..."></TEXTAREA>
 				<br><br>
 				
 				<input type="submit" value="Valider">
@@ -246,7 +251,7 @@
 	<footer id="footer">
 		<hr>
 		<br><br><br>
-		<img src=./assets/logo.png alt="logo" height="90px" width="130px">
+		<img src=./assets/logo.png alt="logo" height="90" width="130">
 		<br><br><br>
 		<!--medias-->
 		<div id="medias">
@@ -278,9 +283,9 @@
 	
 	
 	
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
 
 
   </body>
