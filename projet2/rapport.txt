@@ -21,7 +21,8 @@ Sites web inspirations:
 Séparation des tâches:
 
 Larissa:
- Je me suis chargée de la barre de navigation, du logo SVG et de l'accueil. J'ai fait de mon mieux pour montrer tous les atouts de tantes Sylvie dans ce projet. J'ai eu de la difficulté avec l'adaptation mobile/desktop. J'ai ajouté la musique de fond préférée de tante Sylvie, ainsi  
+
+ Je me suis chargée de la barre de navigation, du logo SVG et de l'accueil. J'ai fait de mon mieux pour montrer tous les atouts de tantes Sylvie dans ce projet. J'ai eu de la difficulté avec l'adaptation mobile/desktop mais j'ai réussi à combiner les propriétés css pour résoudre se problème.Je me suis inspirée des codes du cours et de w3School.Le site est a 100% Compatible avec firefox mais safari ne semble pas reconnaitre localStorage. Chrome y arrive mais n'est pas compatible avec certaines de nos utilisations.J'ai aussi ajouté la musique de fond préférée de tante Sylvie,nous espérons qu'elle appréciera et fera appelle nous une prochaine fois. Merci
 
 
 
@@ -33,7 +34,7 @@ Lannie:
 
 Difficultés rencontrées:
 
-- J'ai eu de la difficulté à intégrer le caroussel pour l'affichage des recettes, car je ne comprenais pas comment utiliser le code fourni. Au final, j'ai su qu'il fallait créer une divison et y associer la classe du caroussel choisi pour appliquer le caroussel et il fallait intégrer le code de slicl dans le script pour que cela fonctionne. 
+- J'ai eu de la difficulté à intégrer le caroussel pour l'affichage des recettes, car je ne comprenais pas comment utiliser le code fourni. Au final, j'ai su qu'il fallait créer une divison et y associer la classe du caroussel choisi pour appliquer le caroussel et il fallait intégrer le code de slick dans le script pour que cela fonctionne. 
 
 - Les images des recettes sont de tailles différentes et j'ai eu de la difficulté à les rendre uniforme dans le caroussel. J'ai essayé de mettre 100% pour le height et le width, mais cela ne permettait pas de rendre uniforme toutes les images. La solution trouvée a été de mettre leur largeur à 100% pour remplir toute la section de chaque partie du caroussel et de mettre la hauteur à 500px pour toutes les images. Cependant, cette solution ne permet pas aux images de s'adapter à l'écran lorsqu'il change de taille. Au final, j'ai retiré le width à 100% et laissé le height à 500px pour que les images soient tous de la même hauteur, mais avec des largeurs différentes. Cela règle le problème d'adaptation à l'écran : lorsque l’écran est plus petit, les images gardent les mêmes proportions, donc ne sont pas déformées, mais une partie de l’image est cachée pour s’adapter à la taille actuelle de l’écran.
 
